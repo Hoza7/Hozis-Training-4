@@ -1,8 +1,10 @@
-# For Loops
+# Classes
 
-items = [1, 2, 3, 4]
-for item in items:
-    if item == 2:
-      break
-    print(item)
+class Dog:
+  def bark(self):
+    print("woof!")
+
+roger = Dog()
+
+print(type(roger))
 
