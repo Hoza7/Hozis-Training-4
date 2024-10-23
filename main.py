@@ -1,6 +1,6 @@
 # For Loops
 
-
-for item in range(15):
-    print(item)
+items = [1, 2, 3, 4]
+for index, item in enumerate(items):
+    print(index, item)
 
