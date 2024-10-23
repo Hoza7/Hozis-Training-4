@@ -1,6 +1,10 @@
 # Classes
 
-class Dog:
+class Animal:
+    def walk(self):
+        print("Walking")
+      
+class Dog(Animal):
     def __init__ (self, name, age):
       self.name = name
       self.age = age
@@ -13,5 +17,5 @@ roger = Dog("Roger", 8)
 print(roger.name)
 print(roger.age)
 
-print(roger.bark())
-
+roger.bark()
+roger.walk()
