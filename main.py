@@ -1,7 +1,9 @@
-# Objects
+# While Loops
 
-age = 8
+count = 0
+while count < 10:
+  print("The condition is True")
+  count = count + 1
 
-print(age.real)
-print(age.imag)
-print(age.bit_length())
+print("After the loop")
+
