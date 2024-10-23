@@ -1,6 +1,8 @@
 # For Loops
 
 items = [1, 2, 3, 4]
-for index, item in enumerate(items):
-    print(index, item)
+for item in items:
+    if item == 2:
+      continue
+    print(item)
 
