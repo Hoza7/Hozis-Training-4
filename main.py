@@ -1,4 +1,4 @@
 # Modules
-import dog
+from lib import dog
 
 dog.bark()
