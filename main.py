@@ -1,4 +1,4 @@
 # Modules
-from lib import dog
+from math import sqrt
 
-dog.bark()
+print(sqrt(4))
